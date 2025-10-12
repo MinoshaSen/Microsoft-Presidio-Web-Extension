@@ -1,2 +1,2 @@
 # Microsoft-Presidio-Web-Extension
-A web extension built using Microsoft Presidio as the backend component to detect and prevent Personally Identifiable Information (PII) entry into AI chatbots.
+This project presents a Chrome web extension developed to detect and prevent Personally Identifiable Information (PII) entered into AI chatbot interfaces. The solution utilizes FastAPI as the API service, which communicates with the backend hosted, Microsoft Presidio for PII detection and anonymization. By intercepting user inputs before submission, the extension helps prevent accidental disclosure of organizational sensitive data, thereby promoting responsible AI usage and enhancing data security compliance within enterprise environments.
